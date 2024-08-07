@@ -2,10 +2,32 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Fork the repository (For first time)
+
+```bash
+git clone https://github.com/100x-Devs/Learning-Management-System
+```
+Install dependencies:
+
+```bash
+npm install
+```
+
+Rrun the development server:
 
 ```bash
 npm run dev
+```
+
+## Steps for contributors
+
+Before you make any code changes, run the following commands to sync with the latest code changes:
+
+```bash
+git fetch origin   
+```
+```bash
+git merge origin/main 
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -14,17 +36,71 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Contributor currently working on timestamp
 
-To learn more about Next.js, take a look at the following resources:
+Sayan Aon :  </br>
+Ajit Prasad : </br>
+Sayak Moda : </br>
+Arnab Ghosh : </br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Progress
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# LMS Timestamp Section Status (Working/Completed/Notrequired)
 
-## Deploy on Vercel
+1</br>
+2</br>
+3</br>
+4</br>
+5</br>
+6</br>
+7</br>
+8</br>
+9</br>
+10</br>
+11</br>
+12</br>
+13</br>
+14</br>
+15</br>
+16</br>
+17</br>
+18</br>
+19</br>
+20</br>
+21</br>
+22</br>
+23</br>
+24</br>
+25</br>
+26</br>
+27</br>
+28</br>
+29</br>
+30</br>
+31</br>
+32</br>
+33</br>
+34</br>
+35</br>
+36</br>
+37</br>
+38</br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Landing Page Timestamp Section Status (Working/Completed/Notrequired)
+
+1</br>
+2</br>
+3</br>
+4</br>
+5</br>
+6</br>
+7</br>
+8</br>
+9</br>
+10</br>
+11</br>
+12</br>
+13</br>
+
+
