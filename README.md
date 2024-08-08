@@ -56,10 +56,10 @@ Arnab Ghosh : </br>
 
 # LMS Timestamp Section Status (Working/Completed/Notrequired)
 
-1 - Completed</br>
-2 - Completed</br>
-3 - Completed</br>
-4 - Completed</br>
+1 : Completed by Arnab Ghosh</br>
+2 : Completed by Arnab Ghosh</br>
+3 : Completed by Arnab Ghosh</br>
+4 : Completed by Arnab Ghosh</br>
 5</br>
 6</br>
 7</br>
