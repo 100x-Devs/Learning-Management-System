@@ -12,6 +12,15 @@ Install dependencies:
 ```bash
 npm install
 ```
+Create a new `.env.local` file in the root folder Add add the following:
+
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= (Your Key)
+CLERK_SECRET_KEY= (Your Key)
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+```
 
 Rrun the development server:
 
@@ -47,10 +56,10 @@ Arnab Ghosh : </br>
 
 # LMS Timestamp Section Status (Working/Completed/Notrequired)
 
-1</br>
-2</br>
-3</br>
-4</br>
+1 - Completed</br>
+2 - Completed</br>
+3 - Completed</br>
+4 - Completed</br>
 5</br>
 6</br>
 7</br>
