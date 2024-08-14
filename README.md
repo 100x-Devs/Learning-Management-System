@@ -49,7 +49,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 Sayan Aon :  </br>
 Ajit Prasad : </br>
-Sayak Modak : working on Dynamic Layout 01:26:55</br>
+Sayak Modak : Completed</br>
 Arnab Ghosh : </br>
 
 ## Progress
@@ -61,7 +61,7 @@ Arnab Ghosh : </br>
 3 : Completed by Arnab Ghosh</br>
 4 : Completed by Arnab Ghosh</br>
 5 : Completed by Sayak Modak</br>
-6</br>
+6 : Completed by Sayak Modak</br>
 7</br>
 8</br>
 9</br>
