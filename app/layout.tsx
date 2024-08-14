@@ -1,16 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import {
-  ClerkProvider,
-  SignedIn,
-  SignedOut,
-  SignOutButton,
-  UserButton,
-  ClerkLoaded,
-  ClerkLoading,
-  SignInButton,
-} from '@clerk/nextjs';
+import { ClerkProvider, ClerkLoading } from '@clerk/nextjs';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,13 +16,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
+    <ClerkProvider afterSignOutUrl={'/'}>
       <html lang="en">
         <body className={inter.className}>
           <ClerkLoading>
             <div>Loading...</div>
           </ClerkLoading>
-          <UserButton />
           {children}
         </body>
       </html>
