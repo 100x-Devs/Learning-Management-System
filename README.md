@@ -62,7 +62,7 @@ Arnab Ghosh : </br>
 4 : Completed by Arnab Ghosh</br>
 5 : Completed by Sayak Modak</br>
 6 : Completed by Sayak Modak</br>
-7</br>
+7 : Completed by Ajit Prasad</br>
 8</br>
 9</br>
 10</br>
@@ -104,7 +104,7 @@ Arnab Ghosh : </br>
 4</br>
 5</br>
 6</br>
-7</br>
+7 Completed Course Creation UI</br>
 8</br>
 9</br>
 10</br>
