@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { ClerkProvider, ClerkLoading, ClerkLoaded } from '@clerk/nextjs';
 import NextTopLoader from 'nextjs-toploader';
+import { ToastProvider } from '@/components/providers/toaster-provider';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <span>Loading...</span>
             </div>
+            <ToastProvider />
           </ClerkLoading>
           <ClerkLoaded>{children}</ClerkLoaded>
         </body>
