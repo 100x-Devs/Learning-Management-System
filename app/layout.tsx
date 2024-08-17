@@ -21,13 +21,13 @@ export default function RootLayout({
     <ClerkProvider afterSignOutUrl={'/'}>
       <html lang="en">
         <body className={inter.className}>
-          <NextTopLoader />
           <ClerkLoading>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <span>Loading...</span>
             </div>
           </ClerkLoading>
           <ClerkLoaded>
+            <NextTopLoader showSpinner={false} />
             <ToastProvider />
             {children}
           </ClerkLoaded>
