@@ -26,9 +26,11 @@ export default function RootLayout({
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <span>Loading...</span>
             </div>
-            <ToastProvider />
           </ClerkLoading>
-          <ClerkLoaded>{children}</ClerkLoaded>
+          <ClerkLoaded>
+            <ToastProvider />
+            {children}
+          </ClerkLoaded>
         </body>
       </html>
     </ClerkProvider>
