@@ -12,7 +12,8 @@ Install dependencies:
 ```bash
 npm install
 ```
-Create a new `.env.local` file in the root folder Add add the following:
+Download the `ca.pem` file from the `Aiven console` and put it inside `prisma` folder: </br>
+Create a new `.env` file in the root folder Add add the following:
 
 ```bash
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= (Your Key)
@@ -20,13 +21,22 @@ CLERK_SECRET_KEY= (Your Key)
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+DATABASE_URL= (Your Key)
 ```
 
-Rrun the development server:
+Run the development server:
 
 ```bash
 npm run dev
 ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+To view the MySQL database (Prisma Studio):
+```bash
+npx prisma studio
+```
+Then open [http://localhost:5555](http://localhost:5555) to view the database.
 
 ## Steps for contributors
 
@@ -39,7 +49,11 @@ git fetch origin
 git merge origin/main 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you make any changes in the `schema.prisma` file:
+
+```bash
+npx prisma generate
+```
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -65,7 +79,7 @@ Arnab Ghosh : </br>
 7 : Completed by Ajit Prasad</br>
 8 : Completed by Arnab Ghosh</br>
 9 : Completed by Arnab Ghosh</br>
-10</br>
+10 : Completed by Arnab Ghosh</br>
 11</br>
 12</br>
 13</br>
