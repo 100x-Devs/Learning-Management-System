@@ -7,11 +7,13 @@ Fork the repository (For first time)
 ```bash
 git clone https://github.com/100x-Devs/Learning-Management-System
 ```
+
 Install dependencies:
 
 ```bash
 npm install
 ```
+
 Download the `ca.pem` file from the `Aiven console` and put it inside `prisma` folder: </br>
 Create a new `.env` file in the root folder Add add the following:
 
@@ -30,12 +32,15 @@ Run the development server:
 ```bash
 npm run dev
 ```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 To view the MySQL database (Prisma Studio):
+
 ```bash
 npx prisma studio
 ```
+
 Then open [http://localhost:5555](http://localhost:5555) to view the database.
 
 ## Steps for contributors
@@ -43,10 +48,11 @@ Then open [http://localhost:5555](http://localhost:5555) to view the database.
 Before you make any code changes, run the following commands to sync with the latest code changes:
 
 ```bash
-git fetch origin   
+git fetch origin
 ```
+
 ```bash
-git merge origin/main 
+git merge origin/main
 ```
 
 If you make any changes in the `schema.prisma` file:
@@ -58,13 +64,6 @@ npx prisma generate
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Contributor currently working on timestamp
-
-Sayan Aon :  </br>
-Ajit Prasad : </br>
-Sayak Modak : Completed</br>
-Arnab Ghosh : </br>
 
 ## Progress
 
@@ -80,10 +79,10 @@ Arnab Ghosh : </br>
 8 : Completed by Arnab Ghosh</br>
 9 : Completed by Arnab Ghosh</br>
 10 : Completed by Arnab Ghosh</br>
-11</br>
-12</br>
-13</br>
-14</br>
+11 : Completed by Sayak Modak</br>
+12 : Completed by Sayak Modak</br>
+13 : Completed by Sayak Modak Upload Thing and Image Form</br>
+14 </br>
 15</br>
 16</br>
 17</br>
@@ -109,7 +108,6 @@ Arnab Ghosh : </br>
 37</br>
 38</br>
 
-
 # Landing Page Timestamp Section Status (Working/Completed/Notrequired)
 
 1</br>
@@ -125,5 +123,3 @@ Arnab Ghosh : </br>
 11</br>
 12</br>
 13</br>
-
-
