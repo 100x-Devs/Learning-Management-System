@@ -21,10 +21,13 @@ Create a new `.env` file in the root folder Add add the following:
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= (Your Key)
 CLERK_SECRET_KEY= (Your Key)
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+UPLOADTHING_SECRET= (Your Key)
+UPLOADTHING_APP_ID= (Your Key)
 
 DATABASE_URL= (Your Key)
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 ```
 
 Run the development server:
