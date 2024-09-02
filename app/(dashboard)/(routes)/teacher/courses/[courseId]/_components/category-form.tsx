@@ -1,4 +1,5 @@
 'use client';
+
 import React, { useState } from 'react';
 import * as z from 'zod';
 import axios from 'axios';
@@ -51,8 +52,6 @@ const CategoryForm = ({
     },
   });
 
-  console.log(form.control);
-
   const { isSubmitting, isValid } = form.formState;
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
@@ -68,7 +67,6 @@ const CategoryForm = ({
   const selectedOption = options.find(
     (option) => option.value === initialData.categoryId
   );
-  console.log(selectedOption);
   return (
     <div className="border mt-6 bg-slate-100 rounded-md p-4">
       This is title form
@@ -107,7 +105,7 @@ const CategoryForm = ({
               render={({ field }) => (
                 <FormItem>
                   <FormControl>
-                    <Combobox />
+                    <Combobox options={options} {...field}/>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
