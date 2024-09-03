@@ -85,8 +85,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 11 : Completed by Sayak Modak</br>
 12 : Completed by Sayak Modak</br>
 13 : Completed by Sayak Modak Upload Thing and Image Form</br>
-14 </br>
-15</br>
+14 : Completed by Sayak Modak Course Category Form</br>
+15 : Completed by Sayak Modak Price Form</br>
 16</br>
 17</br>
 18</br>
