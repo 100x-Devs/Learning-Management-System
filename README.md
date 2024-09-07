@@ -88,7 +88,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 14 Course Category Form : Completed by Sayak Modak</br>
 15 Price Form : Completed by Sayak Modak </br>
 16 Course Attachment Form : Completed by Arnab Ghosh </br>
-17</br>
+17 Prisma schema finalization : Completed by Arnab Ghosh</br>
 18</br>
 19</br>
 20</br>
