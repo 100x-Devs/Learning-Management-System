@@ -91,7 +91,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 17 Prisma schema finalization : Completed by Arnab Ghosh</br>
 18 Chapter Creation API : Completed by Arnab Ghosh</br>
 19 Chapter Reorder Functionality: : Completed by Arnab Ghosh/Sayak Modak</br>
-20</br>
+20 Chapter Edit Page UI : Completed by Sayak Modak</br>
 21</br>
 22</br>
 23</br>
