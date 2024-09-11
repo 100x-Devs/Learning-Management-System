@@ -90,7 +90,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 16 Course Attachment Form : Completed by Arnab Ghosh </br>
 17 Prisma schema finalization : Completed by Arnab Ghosh</br>
 18 Chapter Creation API : Completed by Arnab Ghosh</br>
-19</br>
+19 Chapter Reorder Functionality: : Completed by Arnab Ghosh</br>
 20</br>
 21</br>
 22</br>

@@ -21,6 +21,7 @@ import { useRouter } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { Textarea } from '@/components/ui/textarea';
 import { Chapter, Course } from '@prisma/client';
+import { ChaptersList } from './chapters-list';
 
 interface ChaptersFormProps {
   initialData: Course & { chapters: Chapter[] };
@@ -109,8 +110,12 @@ const ChaptersForm = ({ initialData, courseId }: ChaptersFormProps) => {
             !initialData.chapters.length && 'text-slate-500 italic'
           )}
         >
-         {!initialData.chapters.length && "No chapters"}
-         {/*TO add list of chapters */}
+          {!initialData.chapters.length && 'No chapters'}
+          <ChaptersList
+            onEdit={() => {}}
+            onReorder={() => {}}
+            items={initialData.chapters || []}
+          />
         </div>
       )}
       {!isCreating && (
