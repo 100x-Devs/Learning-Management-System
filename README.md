@@ -93,7 +93,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 19 Chapter Reorder Functionality: : Completed by Arnab Ghosh/Sayak Modak</br>
 20 Chapter Edit Page UI : Completed by Sayak Modak</br>
 21 Chapter Description Form : Completed by Sayak Modak</br>
-22</br>
+22 Chapter Access Form : Completed by Sayak Modak</br>
 23</br>
 24</br>
 25</br>
