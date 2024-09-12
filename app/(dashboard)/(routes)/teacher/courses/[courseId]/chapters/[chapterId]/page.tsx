@@ -49,7 +49,10 @@ const ChapterIdPage = async ({
   return (
     <>
       {!chapter.isPublished && (
-        <Banner variant="warning" label="This chapter is not published. It will not be visible in the course" />
+        <Banner
+          variant="warning"
+          label="This chapter is not published. It will not be visible in the course"
+        />
       )}
       <div className="p-6">
         <div className="flex items-center justify-between">
@@ -68,7 +71,12 @@ const ChapterIdPage = async ({
                   Complete all fields {completionText}
                 </span>
               </div>
-              <ChapterActions disabled={!isCompleted} courseId={params.courseId} chapterId={params.chapterId} isPublished={chapter.isPublished}/>
+              <ChapterActions
+                disabled={!isCompleted}
+                courseId={params.courseId}
+                chapterId={params.chapterId}
+                isPublished={chapter.isPublished}
+              />
             </div>
           </div>
         </div>
