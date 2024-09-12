@@ -101,7 +101,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 24 Chapter Publish Action : Completed by Arnab Ghosh</br>
 25 Course Publish Action : Completed by Arnab Ghosh</br>
 26 Courses Data Table : Completed by Sayak Modak</br>
-27</br>
+27 Categories Query : Completed by Sayak Modak</br>
 28</br>
 29</br>
 30</br>
