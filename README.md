@@ -28,6 +28,9 @@ DATABASE_URL= (Your Key)
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+MUX_TOKEN_ID= (Your Key)
+MUX_TOKEN_SECRET= (Your Key)
 ```
 
 Run the development server:
@@ -94,7 +97,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 20 Chapter Edit Page UI : Completed by Sayak Modak</br>
 21 Chapter Description Form : Completed by Sayak Modak</br>
 22 Chapter Access Form : Completed by Sayak Modak</br>
-23</br>
+23 Mux Setup & Chapter Video Form : Completed by Arnab Ghosh</br>
 24</br>
 25</br>
 26</br>
