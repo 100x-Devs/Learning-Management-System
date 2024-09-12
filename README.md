@@ -98,7 +98,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 21 Chapter Description Form : Completed by Sayak Modak</br>
 22 Chapter Access Form : Completed by Sayak Modak</br>
 23 Mux Setup & Chapter Video Form : Completed by Arnab Ghosh</br>
-24</br>
+24 Chapter Publish Action : Completed by Arnab Ghosh</br>
 25</br>
 26</br>
 27</br>
