@@ -4,6 +4,7 @@ import './globals.css';
 import { ClerkProvider, ClerkLoading, ClerkLoaded } from '@clerk/nextjs';
 import NextTopLoader from 'nextjs-toploader';
 import { ToastProvider } from '@/components/providers/toaster-provider';
+import { ConfettiProvider } from '@/components/providers/confetti-provider';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
           </ClerkLoading>
           <ClerkLoaded>
             <NextTopLoader showSpinner={false} />
+            <ConfettiProvider />
             <ToastProvider />
             {children}
           </ClerkLoaded>
