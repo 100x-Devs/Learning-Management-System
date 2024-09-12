@@ -60,7 +60,6 @@ const PriceForm = ({ initialData, courseId }: PriceFormProps) => {
 
   return (
     <div className="border mt-6 bg-slate-100 rounded-md p-4">
-      This is title form
       <div className="font-medium flex items-center justify-between">
         Course Price
         <Button variant="ghost" onClick={handleToggleCancel}>
