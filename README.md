@@ -104,7 +104,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 27 Categories Query : Completed by Sayak Modak</br>
 28 Search Query : Completed by Sayak Modak</br>
 29 Course Grid and Search UI : Completed by Sayak Modak</br>
-30</br>
+30 Course & Chapters Layout : Completed by Arnab Ghos</br>
 31</br>
 32</br>
 33</br>
