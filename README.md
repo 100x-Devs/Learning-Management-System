@@ -31,6 +31,9 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
 MUX_TOKEN_ID= (Your Key)
 MUX_TOKEN_SECRET= (Your Key)
+
+NEXT_PUBLIC_RAZORPAY_KEY_ID= (Your Key)
+RAZORPAY_KEY_SECRET= (Your Key)
 ```
 
 Run the development server:
