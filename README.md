@@ -106,8 +106,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 29 Course Grid and Search UI : Completed by Sayak Modak</br>
 30 Course & Chapters Layout : Completed by Arnab Ghosh</br>
 31 Chapter HLS Video Player: Completed by Arnab Ghosh</br>
-32</br>
-33</br>
+32 Course Purchase UI : Completed by Arnab Ghosh</br>
+33 Added Razorpay Integration: Completed by Arnab Ghosh</br>
 34</br>
 35</br>
 36</br>

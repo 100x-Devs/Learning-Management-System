@@ -4,8 +4,12 @@ import { NextResponse } from 'next/server';
 import { validateWebhookSignature } from 'razorpay/dist/utils/razorpay-utils';
 
 export async function POST(req: Request) {
-  const { razorpay_order_id, razorpay_payment_id, razorpay_signature } =
-    await req.json();
+  const {
+    razorpay_order_id,
+    razorpay_payment_id,
+    razorpay_signature,
+    courseId,
+  } = await req.json();
   const secret = process.env.RAZORPAY_KEY_SECRET as string;
   const body = razorpay_order_id + '|' + razorpay_payment_id;
   try {
@@ -19,7 +23,13 @@ export async function POST(req: Request) {
       if (!userId) {
         return new NextResponse('Unauthorized', { status: 401 });
       }
-      // DB call to save the payment
+
+      await db.purchase.create({
+        data: {
+          courseId: courseId,
+          userId: userId,
+        },
+      });
       console.log('Payment verification successful');
       return NextResponse.json({ status: 'verification_successful' });
     } else {
