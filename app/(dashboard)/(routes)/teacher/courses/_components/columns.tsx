@@ -16,6 +16,7 @@ import Link from 'next/link';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 import { useDebugValue } from 'react';
+import { formatPrice } from '@/lib/format';
 
 export const columns: ColumnDef<Course>[] = [
   {
@@ -46,11 +47,8 @@ export const columns: ColumnDef<Course>[] = [
       );
     },
     cell: ({ row }) => {
-      const price = parseFloat(row.getValue('price')) || '0';
-      const formatted = new Intl.NumberFormat('en-us', {
-        style: 'currency',
-        currency: 'USD',
-      }).format(price);
+      const price = parseFloat(row.getValue('price')) || 0;
+      const formatted = formatPrice(price);
 
       return <div>{formatted}</div>;
     },

@@ -23,7 +23,7 @@ interface ChartProps {
 
 export const Chart = ({ data }: ChartProps) => {
   return (
-    <Card className='px-4 py-6 pb-2'>
+    <Card className="px-4 py-6 pb-2">
       <ResponsiveContainer width="100%" height={350}>
         <BarChart data={data}>
           <XAxis
@@ -36,7 +36,7 @@ export const Chart = ({ data }: ChartProps) => {
             stroke="#888888"
             tickLine={false}
             axisLine={false}
-            tickFormatter={(value) => `$${value}`}
+            tickFormatter={(value) => `₹${value}`}
           />
           <Bar
             dataKey="total"
