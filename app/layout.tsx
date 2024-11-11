@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import { ClerkProvider, ClerkLoading, ClerkLoaded } from '@clerk/nextjs';
+import { ClerkProvider, ClerkLoading } from '@clerk/nextjs';
 import NextTopLoader from 'nextjs-toploader';
 import { ToastProvider } from '@/components/providers/toaster-provider';
 import { ConfettiProvider } from '@/components/providers/confetti-provider';
@@ -27,12 +27,10 @@ export default function RootLayout({
               <span>Loading...</span>
             </div>
           </ClerkLoading>
-          <ClerkLoaded>
-            <NextTopLoader showSpinner={false} />
-            <ConfettiProvider />
-            <ToastProvider />
-            {children}
-          </ClerkLoaded>
+          <NextTopLoader showSpinner={false} />
+          <ConfettiProvider />
+          <ToastProvider />
+          {children}
         </body>
       </html>
     </ClerkProvider>

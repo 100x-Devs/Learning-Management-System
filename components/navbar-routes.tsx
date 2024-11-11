@@ -1,5 +1,5 @@
 'use client';
-import { UserButton } from '@clerk/nextjs';
+import { SignedIn, UserButton } from '@clerk/nextjs';
 import { usePathname, useRouter } from 'next/navigation';
 import React from 'react';
 import { Button } from '@/components/ui/button';
@@ -39,7 +39,9 @@ const NavbarRoutes = () => {
           </Link>
         )}
         <div className="flex items-center">
-          <UserButton />
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
         </div>
       </div>
     </>
