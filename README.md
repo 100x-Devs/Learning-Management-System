@@ -108,7 +108,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 31 Chapter HLS Video Player: Completed by Arnab Ghosh</br>
 32 Course Purchase UI : Completed by Arnab Ghosh</br>
 33 Added Razorpay Integration: Completed by Arnab Ghosh</br>
-34</br>
+34 Added Chapter Progress Functionality: Completed by Arnab Ghosh</br>
 35</br>
 36</br>
 37</br>
