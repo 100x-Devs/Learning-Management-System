@@ -130,30 +130,42 @@ export async function PATCH(
       });
 
       if (existingMuxData) {
-        await video.assets.delete(existingMuxData.assetId);
+        try {
+          await video.assets.delete(existingMuxData.assetId);
+        } catch (error) {
+          console.log('[Mux Asset Delete]', error);
+        }
         await db.muxData.delete({
           where: {
             id: existingMuxData.id,
           },
         });
       }
-      const asset = await video.assets.create({
-        input: values.videoUrl,
-        playback_policy: ['public'],
-        test: false,
-      });
 
-      await db.muxData.create({
-        data: {
-          chapterId: params.chapterId,
-          assetId: asset.id,
-          playbackId: asset.playback_ids?.[0]?.id ?? '',
-        },
-      });
+      try {
+        const asset = await video.assets.create({
+          input: values.videoUrl,
+          playback_policy: ['public'],
+          test: false,
+        });
+
+        if (asset) {
+          await db.muxData.create({
+            data: {
+              chapterId: params.chapterId,
+              assetId: asset.id,
+              playbackId: asset.playback_ids?.[0]?.id || '',
+            },
+          });
+        }
+      } catch (error) {
+        console.log('[Mux Asset Create]', error);
+      }
     }
+
     return NextResponse.json(chapter);
   } catch (error) {
-    console.error('COURSE_CHAPTER_ID', error);
+    console.log('[COURSES_CHAPTER_ID]', error);
     return new NextResponse('Internal Error', { status: 500 });
   }
 }
