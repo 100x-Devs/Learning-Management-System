@@ -111,8 +111,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 34 Added Chapter Progress Functionality: Completed by Arnab Ghosh</br>
 35 Added Student Dashboard : Completed by Arnab Ghosh</br>
 36 Added Teacher Analytics Dashboard: Completed by Arnab Ghosh</br>
-37</br>
-38</br>
+37 Not required: Arnab Ghosh</br>
+38 Not required: Arnab Ghosh</br>
 
 # Landing Page Timestamp Section Status (Working/Completed/Notrequired)
 
